@@ -1560,6 +1560,294 @@ const items = [
 		color: [2, 3, 6]
 	},
 
+	{
+		id: 65,
+		name: "Mens Adidas Running Shoes",
+		category: 6,
+		price: "195.95",
+		img: ["images/Mens/Running/mens r-1.webp", "images/Mens/Running/mens r-2.webp", "images/Mens/Running/mens r-3.webp"],
+		short_desc: "Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.",
+		desc: `<p>Beryl Cook is one of Britain’s most talented and amusing artists .Beryl’s pictures feature women of all shapes and sizes
+						enjoying themselves .Born between the two world wars, Beryl Cook eventually left Kendrick School in Reading at the
+						age of 15, where she went to secretarial school and then into an insurance office. After moving to London and then
+						Hampton, she eventually married her next door neighbour from Reading, John Cook. He was an officer in the Merchant
+						Navy and after he left the sea in 1956, they bought a pub for a year before John took a job in Southern Rhodesia with
+						a motor company. Beryl bought their young son a box of watercolours, and when showing him how to use it, she decided
+						that she herself quite enjoyed painting. John subsequently bought her a child’s painting set for her birthday and it
+						was with this that she produced her first significant work, a half-length portrait of a dark-skinned lady with a vacant
+						expression and large drooping breasts. It was aptly named ‘Hangover’ by Beryl’s husband and</p>
+					<p>It is often frustrating to attempt to plan meals that are designed for one. Despite this fact, we are seeing more and
+						more recipe books and Internet websites that are dedicated to the act of cooking for one. Divorce and the death of
+						spouses or grown children leaving for college are all reasons that someone accustomed to cooking for more than one
+						would suddenly need to learn how to adjust all the cooking practices utilized before into a streamlined plan of cooking
+						that is more efficient for one person creating less</p>`,
+		color: [3]
+	},
+
+	{
+		id: 66,
+		name: "Men's UA Charged Assert 10 Wide (4E) Running Shoes",
+		category: 6,
+		price: "205.95",
+		img: ["images/Mens/Running/mens r-4.jpg", "images/Mens/Running/mens r-5.jpg", "images/Mens/Running/mens r-6.webp"],
+		short_desc: "Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.",
+		desc: `<p>Beryl Cook is one of Britain’s most talented and amusing artists .Beryl’s pictures feature women of all shapes and sizes
+						enjoying themselves .Born between the two world wars, Beryl Cook eventually left Kendrick School in Reading at the
+						age of 15, where she went to secretarial school and then into an insurance office. After moving to London and then
+						Hampton, she eventually married her next door neighbour from Reading, John Cook. He was an officer in the Merchant
+						Navy and after he left the sea in 1956, they bought a pub for a year before John took a job in Southern Rhodesia with
+						a motor company. Beryl bought their young son a box of watercolours, and when showing him how to use it, she decided
+						that she herself quite enjoyed painting. John subsequently bought her a child’s painting set for her birthday and it
+						was with this that she produced her first significant work, a half-length portrait of a dark-skinned lady with a vacant
+						expression and large drooping breasts. It was aptly named ‘Hangover’ by Beryl’s husband and</p>
+					<p>It is often frustrating to attempt to plan meals that are designed for one. Despite this fact, we are seeing more and
+						more recipe books and Internet websites that are dedicated to the act of cooking for one. Divorce and the death of
+						spouses or grown children leaving for college are all reasons that someone accustomed to cooking for more than one
+						would suddenly need to learn how to adjust all the cooking practices utilized before into a streamlined plan of cooking
+						that is more efficient for one person creating less</p>`,
+		color: [8]
+	},
+
+	{
+		id: 67,
+		name: "Men's UA Surge 3 Slip Running Shoes",
+		category: 6,
+		price: "195.95",
+		img: ["images/Mens/Running/mens r-7.jpg", "images/Mens/Running/mens r-8.jpg", "images/Mens/Running/mens r-9.webp"],
+		short_desc: "Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.",
+		desc: `<p>Beryl Cook is one of Britain’s most talented and amusing artists .Beryl’s pictures feature women of all shapes and sizes
+						enjoying themselves .Born between the two world wars, Beryl Cook eventually left Kendrick School in Reading at the
+						age of 15, where she went to secretarial school and then into an insurance office. After moving to London and then
+						Hampton, she eventually married her next door neighbour from Reading, John Cook. He was an officer in the Merchant
+						Navy and after he left the sea in 1956, they bought a pub for a year before John took a job in Southern Rhodesia with
+						a motor company. Beryl bought their young son a box of watercolours, and when showing him how to use it, she decided
+						that she herself quite enjoyed painting. John subsequently bought her a child’s painting set for her birthday and it
+						was with this that she produced her first significant work, a half-length portrait of a dark-skinned lady with a vacant
+						expression and large drooping breasts. It was aptly named ‘Hangover’ by Beryl’s husband and</p>
+					<p>It is often frustrating to attempt to plan meals that are designed for one. Despite this fact, we are seeing more and
+						more recipe books and Internet websites that are dedicated to the act of cooking for one. Divorce and the death of
+						spouses or grown children leaving for college are all reasons that someone accustomed to cooking for more than one
+						would suddenly need to learn how to adjust all the cooking practices utilized before into a streamlined plan of cooking
+						that is more efficient for one person creating less</p>`,
+		color: [1, 3]
+	},
+
+	{
+		id: 68,
+		name: "Men's UA HOVR™ Turbulence Running Shoes",
+		category: 6,
+		price: "245.95",
+		img: ["images/Mens/Running/mens r-10.webp", "images/Mens/Running/mens r-11.webp", "images/Mens/Running/mens r-12.webp"],
+		short_desc: "Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.",
+		desc: `<p>Beryl Cook is one of Britain’s most talented and amusing artists .Beryl’s pictures feature women of all shapes and sizes
+						enjoying themselves .Born between the two world wars, Beryl Cook eventually left Kendrick School in Reading at the
+						age of 15, where she went to secretarial school and then into an insurance office. After moving to London and then
+						Hampton, she eventually married her next door neighbour from Reading, John Cook. He was an officer in the Merchant
+						Navy and after he left the sea in 1956, they bought a pub for a year before John took a job in Southern Rhodesia with
+						a motor company. Beryl bought their young son a box of watercolours, and when showing him how to use it, she decided
+						that she herself quite enjoyed painting. John subsequently bought her a child’s painting set for her birthday and it
+						was with this that she produced her first significant work, a half-length portrait of a dark-skinned lady with a vacant
+						expression and large drooping breasts. It was aptly named ‘Hangover’ by Beryl’s husband and</p>
+					<p>It is often frustrating to attempt to plan meals that are designed for one. Despite this fact, we are seeing more and
+						more recipe books and Internet websites that are dedicated to the act of cooking for one. Divorce and the death of
+						spouses or grown children leaving for college are all reasons that someone accustomed to cooking for more than one
+						would suddenly need to learn how to adjust all the cooking practices utilized before into a streamlined plan of cooking
+						that is more efficient for one person creating less</p>`,
+		color: [3, 11]
+	},
+
+	{
+		id: 69,
+		name: "ADISTAR RUNNING SHOES",
+		category: 6,
+		price: "145.95",
+		img: ["images/Mens/Running/mens r-13.avif", "images/Mens/Running/mens r-14.avif", "images/Mens/Running/mens r-15.avif"],
+		short_desc: "Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.",
+		desc: `<p>Beryl Cook is one of Britain’s most talented and amusing artists .Beryl’s pictures feature women of all shapes and sizes
+						enjoying themselves .Born between the two world wars, Beryl Cook eventually left Kendrick School in Reading at the
+						age of 15, where she went to secretarial school and then into an insurance office. After moving to London and then
+						Hampton, she eventually married her next door neighbour from Reading, John Cook. He was an officer in the Merchant
+						Navy and after he left the sea in 1956, they bought a pub for a year before John took a job in Southern Rhodesia with
+						a motor company. Beryl bought their young son a box of watercolours, and when showing him how to use it, she decided
+						that she herself quite enjoyed painting. John subsequently bought her a child’s painting set for her birthday and it
+						was with this that she produced her first significant work, a half-length portrait of a dark-skinned lady with a vacant
+						expression and large drooping breasts. It was aptly named ‘Hangover’ by Beryl’s husband and</p>
+					<p>It is often frustrating to attempt to plan meals that are designed for one. Despite this fact, we are seeing more and
+						more recipe books and Internet websites that are dedicated to the act of cooking for one. Divorce and the death of
+						spouses or grown children leaving for college are all reasons that someone accustomed to cooking for more than one
+						would suddenly need to learn how to adjust all the cooking practices utilized before into a streamlined plan of cooking
+						that is more efficient for one person creating less</p>`,
+		color: [8, 12]
+	},
+
+	{
+		id: 70,
+		name: "RUNFALCON 3 TR RUNNING SHOES",
+		category: 6,
+		price: "125.95",
+		img: ["images/Mens/Running/mens r-16.avif", "images/Mens/Running/mens r-17.avif", "images/Mens/Running/mens r-18.avif"],
+		short_desc: "Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.",
+		desc: `<p>Beryl Cook is one of Britain’s most talented and amusing artists .Beryl’s pictures feature women of all shapes and sizes
+						enjoying themselves .Born between the two world wars, Beryl Cook eventually left Kendrick School in Reading at the
+						age of 15, where she went to secretarial school and then into an insurance office. After moving to London and then
+						Hampton, she eventually married her next door neighbour from Reading, John Cook. He was an officer in the Merchant
+						Navy and after he left the sea in 1956, they bought a pub for a year before John took a job in Southern Rhodesia with
+						a motor company. Beryl bought their young son a box of watercolours, and when showing him how to use it, she decided
+						that she herself quite enjoyed painting. John subsequently bought her a child’s painting set for her birthday and it
+						was with this that she produced her first significant work, a half-length portrait of a dark-skinned lady with a vacant
+						expression and large drooping breasts. It was aptly named ‘Hangover’ by Beryl’s husband and</p>
+					<p>It is often frustrating to attempt to plan meals that are designed for one. Despite this fact, we are seeing more and
+						more recipe books and Internet websites that are dedicated to the act of cooking for one. Divorce and the death of
+						spouses or grown children leaving for college are all reasons that someone accustomed to cooking for more than one
+						would suddenly need to learn how to adjust all the cooking practices utilized before into a streamlined plan of cooking
+						that is more efficient for one person creating less</p>`,
+		color: [5]
+	},
+
+	{
+		id: 71,
+		name: "ASICS Men's GT-2000 10 Running Shoes",
+		category: 6,
+		price: "90.95",
+		img: ["images/Mens/Running/mens r-19.jpg", "images/Mens/Running/mens r-20.jpg"],
+		short_desc: "Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.",
+		desc: `<p>Beryl Cook is one of Britain’s most talented and amusing artists .Beryl’s pictures feature women of all shapes and sizes
+						enjoying themselves .Born between the two world wars, Beryl Cook eventually left Kendrick School in Reading at the
+						age of 15, where she went to secretarial school and then into an insurance office. After moving to London and then
+						Hampton, she eventually married her next door neighbour from Reading, John Cook. He was an officer in the Merchant
+						Navy and after he left the sea in 1956, they bought a pub for a year before John took a job in Southern Rhodesia with
+						a motor company. Beryl bought their young son a box of watercolours, and when showing him how to use it, she decided
+						that she herself quite enjoyed painting. John subsequently bought her a child’s painting set for her birthday and it
+						was with this that she produced her first significant work, a half-length portrait of a dark-skinned lady with a vacant
+						expression and large drooping breasts. It was aptly named ‘Hangover’ by Beryl’s husband and</p>
+					<p>It is often frustrating to attempt to plan meals that are designed for one. Despite this fact, we are seeing more and
+						more recipe books and Internet websites that are dedicated to the act of cooking for one. Divorce and the death of
+						spouses or grown children leaving for college are all reasons that someone accustomed to cooking for more than one
+						would suddenly need to learn how to adjust all the cooking practices utilized before into a streamlined plan of cooking
+						that is more efficient for one person creating less</p>`,
+		color: [3, 8]
+	},
+
+	{
+		id: 72,
+		name: "Nano X3 Shoes",
+		category: 7,
+		price: "150.95",
+		img: ["images/Mens/Training _ Gym/mens tg-1.webp", "images/Mens/Training _ Gym/mens tg-2.webp", "images/Mens/Training _ Gym/mens tg-3.webp"],
+		short_desc: "Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.",
+		desc: `<p>Beryl Cook is one of Britain’s most talented and amusing artists .Beryl’s pictures feature women of all shapes and sizes
+						enjoying themselves .Born between the two world wars, Beryl Cook eventually left Kendrick School in Reading at the
+						age of 15, where she went to secretarial school and then into an insurance office. After moving to London and then
+						Hampton, she eventually married her next door neighbour from Reading, John Cook. He was an officer in the Merchant
+						Navy and after he left the sea in 1956, they bought a pub for a year before John took a job in Southern Rhodesia with
+						a motor company. Beryl bought their young son a box of watercolours, and when showing him how to use it, she decided
+						that she herself quite enjoyed painting. John subsequently bought her a child’s painting set for her birthday and it
+						was with this that she produced her first significant work, a half-length portrait of a dark-skinned lady with a vacant
+						expression and large drooping breasts. It was aptly named ‘Hangover’ by Beryl’s husband and</p>
+					<p>It is often frustrating to attempt to plan meals that are designed for one. Despite this fact, we are seeing more and
+						more recipe books and Internet websites that are dedicated to the act of cooking for one. Divorce and the death of
+						spouses or grown children leaving for college are all reasons that someone accustomed to cooking for more than one
+						would suddenly need to learn how to adjust all the cooking practices utilized before into a streamlined plan of cooking
+						that is more efficient for one person creating less</p>`,
+		color: [7]
+	},
+
+	{
+		id: 73,
+		name: "Nano X3 Adventure Training Shoes",
+		category: 7,
+		price: "150.95",
+		img: ["images/Mens/Training _ Gym/mens tg-4.webp", "images/Mens/Training _ Gym/mens tg-5.webp", "images/Mens/Training _ Gym/mens tg-6.webp"],
+		short_desc: "Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.",
+		desc: `<p>Beryl Cook is one of Britain’s most talented and amusing artists .Beryl’s pictures feature women of all shapes and sizes
+						enjoying themselves .Born between the two world wars, Beryl Cook eventually left Kendrick School in Reading at the
+						age of 15, where she went to secretarial school and then into an insurance office. After moving to London and then
+						Hampton, she eventually married her next door neighbour from Reading, John Cook. He was an officer in the Merchant
+						Navy and after he left the sea in 1956, they bought a pub for a year before John took a job in Southern Rhodesia with
+						a motor company. Beryl bought their young son a box of watercolours, and when showing him how to use it, she decided
+						that she herself quite enjoyed painting. John subsequently bought her a child’s painting set for her birthday and it
+						was with this that she produced her first significant work, a half-length portrait of a dark-skinned lady with a vacant
+						expression and large drooping breasts. It was aptly named ‘Hangover’ by Beryl’s husband and</p>
+					<p>It is often frustrating to attempt to plan meals that are designed for one. Despite this fact, we are seeing more and
+						more recipe books and Internet websites that are dedicated to the act of cooking for one. Divorce and the death of
+						spouses or grown children leaving for college are all reasons that someone accustomed to cooking for more than one
+						would suddenly need to learn how to adjust all the cooking practices utilized before into a streamlined plan of cooking
+						that is more efficient for one person creating less</p>`,
+		color: [8]
+	},
+
+	{
+		id: 74,
+		name: "Flexagon Force 4 Men's Training Shoes",
+		category: 7,
+		price: "105.95",
+		img: ["images/Mens/Training _ Gym/mens tg-7.webp", "images/Mens/Training _ Gym/mens tg-8.webp", "images/Mens/Training _ Gym/mens tg-9.webp"],
+		short_desc: "Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.",
+		desc: `<p>Beryl Cook is one of Britain’s most talented and amusing artists .Beryl’s pictures feature women of all shapes and sizes
+						enjoying themselves .Born between the two world wars, Beryl Cook eventually left Kendrick School in Reading at the
+						age of 15, where she went to secretarial school and then into an insurance office. After moving to London and then
+						Hampton, she eventually married her next door neighbour from Reading, John Cook. He was an officer in the Merchant
+						Navy and after he left the sea in 1956, they bought a pub for a year before John took a job in Southern Rhodesia with
+						a motor company. Beryl bought their young son a box of watercolours, and when showing him how to use it, she decided
+						that she herself quite enjoyed painting. John subsequently bought her a child’s painting set for her birthday and it
+						was with this that she produced her first significant work, a half-length portrait of a dark-skinned lady with a vacant
+						expression and large drooping breasts. It was aptly named ‘Hangover’ by Beryl’s husband and</p>
+					<p>It is often frustrating to attempt to plan meals that are designed for one. Despite this fact, we are seeing more and
+						more recipe books and Internet websites that are dedicated to the act of cooking for one. Divorce and the death of
+						spouses or grown children leaving for college are all reasons that someone accustomed to cooking for more than one
+						would suddenly need to learn how to adjust all the cooking practices utilized before into a streamlined plan of cooking
+						that is more efficient for one person creating less</p>`,
+		color: [3, 8]
+	},
+
+	{
+		id: 75,
+		name: "DC Nano X2 Men's Training Shoes",
+		category: 7,
+		price: "98.95",
+		img: ["images/Mens/Training _ Gym/mens tg-10.webp", "images/Mens/Training _ Gym/mens tg-11.webp", "images/Mens/Training _ Gym/mens tg-12.webp"],
+		short_desc: "Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.",
+		desc: `<p>Beryl Cook is one of Britain’s most talented and amusing artists .Beryl’s pictures feature women of all shapes and sizes
+						enjoying themselves .Born between the two world wars, Beryl Cook eventually left Kendrick School in Reading at the
+						age of 15, where she went to secretarial school and then into an insurance office. After moving to London and then
+						Hampton, she eventually married her next door neighbour from Reading, John Cook. He was an officer in the Merchant
+						Navy and after he left the sea in 1956, they bought a pub for a year before John took a job in Southern Rhodesia with
+						a motor company. Beryl bought their young son a box of watercolours, and when showing him how to use it, she decided
+						that she herself quite enjoyed painting. John subsequently bought her a child’s painting set for her birthday and it
+						was with this that she produced her first significant work, a half-length portrait of a dark-skinned lady with a vacant
+						expression and large drooping breasts. It was aptly named ‘Hangover’ by Beryl’s husband and</p>
+					<p>It is often frustrating to attempt to plan meals that are designed for one. Despite this fact, we are seeing more and
+						more recipe books and Internet websites that are dedicated to the act of cooking for one. Divorce and the death of
+						spouses or grown children leaving for college are all reasons that someone accustomed to cooking for more than one
+						would suddenly need to learn how to adjust all the cooking practices utilized before into a streamlined plan of cooking
+						that is more efficient for one person creating less</p>`,
+		color: [8, 9]
+	},
+
+	{
+		id: 76,
+		name: "Fluxlite Men's Training Shoes",
+		category: 7,
+		price: "85.95",
+		img: ["images/Mens/Training _ Gym/mens tg-13.webp", "images/Mens/Training _ Gym/mens tg-14.webp", "images/Mens/Training _ Gym/mens tg-15.webp"],
+		short_desc: "Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.",
+		desc: `<p>Beryl Cook is one of Britain’s most talented and amusing artists .Beryl’s pictures feature women of all shapes and sizes
+						enjoying themselves .Born between the two world wars, Beryl Cook eventually left Kendrick School in Reading at the
+						age of 15, where she went to secretarial school and then into an insurance office. After moving to London and then
+						Hampton, she eventually married her next door neighbour from Reading, John Cook. He was an officer in the Merchant
+						Navy and after he left the sea in 1956, they bought a pub for a year before John took a job in Southern Rhodesia with
+						a motor company. Beryl bought their young son a box of watercolours, and when showing him how to use it, she decided
+						that she herself quite enjoyed painting. John subsequently bought her a child’s painting set for her birthday and it
+						was with this that she produced her first significant work, a half-length portrait of a dark-skinned lady with a vacant
+						expression and large drooping breasts. It was aptly named ‘Hangover’ by Beryl’s husband and</p>
+					<p>It is often frustrating to attempt to plan meals that are designed for one. Despite this fact, we are seeing more and
+						more recipe books and Internet websites that are dedicated to the act of cooking for one. Divorce and the death of
+						spouses or grown children leaving for college are all reasons that someone accustomed to cooking for more than one
+						would suddenly need to learn how to adjust all the cooking practices utilized before into a streamlined plan of cooking
+						that is more efficient for one person creating less</p>`,
+		color: [8, 9]
+	},
+
 
 
 ]
@@ -1584,6 +1872,14 @@ const category = [
 	{
 		id: 5,
 		name: "Air Max"
+	},
+	{
+		id: 6,
+		name: "Running"
+	},
+	{
+		id: 7,
+		name: "Gym Training"
 	},
 ]
 
@@ -1628,6 +1924,14 @@ const colors = [
 	{
 		id: 10,
 		name: "Purple"
+	},
+	{
+		id: 11,
+		name: "Yellow"
+	},
+	{
+		id: 12,
+		name: "Orange"
 	},
 
 ]
