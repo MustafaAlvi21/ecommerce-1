@@ -333,6 +333,96 @@ const categorySort = (param) => {
                 </div>`
         });
     } 
+    else if (param == 8) {
+        let categoryFilter = items.filter((value) => {
+            return value.category == 8;
+        });
+
+        categoryFilter.forEach(element => {
+            categoryProductsDiv.innerHTML += `						
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="f_p_item">
+                        <div class="f_p_img">
+                            <a href="/single-product.html?name=${element.name}">
+                            <img class="img-fluid" src="${element.img[0]}" alt="">
+                            </a>
+                            <div class="p_icon">
+                                <a onclick="checkWishlist(${element.id})" id="addToWish${element.id}">
+                                    <i class="lnr lnr-heart"></i>
+                                </a>
+                                <a onclick="addToCartIcon(${element.id})" class="cursor"    >
+                                    <i class="lnr lnr-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="/single-product.html?name=${element.name}">
+                            <h4>${element.name}</h4>
+                        </a>
+                        <h5>$${element.price}</h5>
+                    </div>
+                </div>`
+        });
+    } 
+    else if (param == 9) {
+        let categoryFilter = items.filter((value) => {
+            return value.category == 9;
+        });
+
+        categoryFilter.forEach(element => {
+            categoryProductsDiv.innerHTML += `						
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="f_p_item">
+                        <div class="f_p_img">
+                            <a href="/single-product.html?name=${element.name}">
+                            <img class="img-fluid" src="${element.img[0]}" alt="">
+                            </a>
+                            <div class="p_icon">
+                                <a onclick="checkWishlist(${element.id})" id="addToWish${element.id}">
+                                    <i class="lnr lnr-heart"></i>
+                                </a>
+                                <a onclick="addToCartIcon(${element.id})" class="cursor"    >
+                                    <i class="lnr lnr-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="/single-product.html?name=${element.name}">
+                            <h4>${element.name}</h4>
+                        </a>
+                        <h5>$${element.price}</h5>
+                    </div>
+                </div>`
+        });
+    } 
+    else if (param == 10) {
+        let categoryFilter = items.filter((value) => {
+            return value.category == 10;
+        });
+
+        categoryFilter.forEach(element => {
+            categoryProductsDiv.innerHTML += `						
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="f_p_item">
+                        <div class="f_p_img">
+                            <a href="/single-product.html?name=${element.name}">
+                            <img class="img-fluid" src="${element.img[0]}" alt="">
+                            </a>
+                            <div class="p_icon">
+                                <a onclick="checkWishlist(${element.id})" id="addToWish${element.id}">
+                                    <i class="lnr lnr-heart"></i>
+                                </a>
+                                <a onclick="addToCartIcon(${element.id})" class="cursor"    >
+                                    <i class="lnr lnr-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="/single-product.html?name=${element.name}">
+                            <h4>${element.name}</h4>
+                        </a>
+                        <h5>$${element.price}</h5>
+                    </div>
+                </div>`
+        });
+    } 
     else if (param == 'reset') {
         sorting();
     }
