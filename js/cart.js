@@ -37,14 +37,18 @@ const getCart = () => {
 
 const setCart = () => {
     const user = currentUser();
+    if (user === null) return;
     const email = user.email;
+
 
     return localStorage.setItem(email + 'Cart', JSON.stringify(cart));
 }
 
 const getWishlist = () => {
     const user = currentUser();
+    if (user === null) return;
     const email = user.email;
+
 
     return JSON.parse(localStorage.getItem(email + 'Wishlist'));
 }
@@ -275,7 +279,11 @@ const cartProduct = () => {
         </td>
         <td>
             <div class="product_count">
-                <input type="number" name="qty" id="sst${element.id}" minlength="1" onchange="qtyChange(${element.id})" maxlength="12" value="${element.qty}" title="Quantity:" class="input-text qty">
+            <div style="display:flex; justify-content:center; align-items:center;">
+                    <button class="qtyChangeBtns" id=dec-btn${element.id} onclick="decrement(${element.id})">-</button>
+                    <input type="number" name="qty" id="sst${element.id}" minlength="1" onchange="qtyChange(${element.id})" maxlength="12" value="${element.qty}" title="Quantity:" class="qty">
+                    <button class="qtyChangeBtns" id=inc-btn${element.id} onclick="increment(${element.id})">+</button>
+            </div>
             </div>
         </td>
         <td>
@@ -288,6 +296,24 @@ const cartProduct = () => {
     });
 
     subtotal.innerText = `$${totalPrice.toFixed(2)}`;
+}
+
+const decrement = (param) => {
+    let qty = document.getElementById(`sst${param}`);
+    let changedQty = parseInt(qty.value) - 1
+
+    qty.value = changedQty;
+
+    qtyChange(param)
+}
+
+const increment = (param) => {
+    let qty = document.getElementById(`sst${param}`);
+    let changedQty = parseInt(qty.value) + 1
+
+    qty.value = changedQty;
+
+    qtyChange(param)
 }
 
 const qtyChange = (param) => {
@@ -472,4 +498,27 @@ const wishlistProduct = () => {
 
     });
 
+}
+
+
+const emailSubmit = () => {
+    let email = document.getElementById('newsletterEmail')
+    if (email.value == '') {
+        Swal.fire({
+            // position: 'top-end',
+            icon: 'warning',
+            title: 'Enter Your Email Please.',
+            showConfirmButton: false,
+            timer: 1500
+        })
+    } else {
+
+        Swal.fire({
+            // position: 'top-end',
+            icon: 'success',
+            title: 'Subscribed To Newsletter',
+            showConfirmButton: false,
+            timer: 1500
+        })
+    }
 }

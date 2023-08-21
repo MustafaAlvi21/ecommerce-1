@@ -8,6 +8,8 @@
 	<link rel="icon" href="img/favicon.png" type="image/png">
 	<title>ListAshop</title>
 	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -20,6 +22,11 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
 </head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+</script>
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <body onload="cartProduct()">
@@ -49,45 +56,156 @@
 										<a class="nav-link" href="index.html">Home</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="shop.html">Shop</a>		
+										<a class="nav-link" href="shop.html">Shop</a>
+									</li>
+									<li class="nav-item">
+										<div class="dropdown">
+											<button class="nav-link" type="button" id="dropdownMenuButton"
+												data-mdb-toggle="dropdown" aria-expanded="false">
+												Categories
+											</button>
+											<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+												<li>
+													<a class="dropdown-item " href="shop.html?gender=1">
+														Men's &raquo;
+													</a>
+													<ul class="dropdown-menu dropdown-submenu">
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=1&category=1">Jordan</a>
+														</li>
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=1&category=2">Dunk Low</a>
+														</li>
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=1&category=3">Football</a>
+														</li>
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=1&category=5">Air Max</a>
+														</li>
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=1&category=6">Running</a>
+														</li>
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=1&category=7">Gym Training</a>
+														</li>
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=1&category=8">Air Force</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a class="dropdown-item" href="shop.html?gender=2">
+														Women's &raquo;
+													</a>
+													<ul class="dropdown-menu dropdown-submenu">
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=2&category=1">Jordan</a>
+														</li>
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=2&category=6">Running</a>
+														</li>
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=2&category=8">Air Force</a>
+														</li>
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=2&category=9">Sandals</a>
+														</li>
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=2&category=10">Slippers</a>
+														</li>
+													</ul>
+												</li>
+									</li>
+									<li>
+										<a class="dropdown-item" href="shop.html?gender=3&category=4">
+											Kids &raquo;
+										</a>
+										<!-- <ul class="dropdown-menu dropdown-submenu">
+											<li>
+												<a class="dropdown-item" href="#">Submenu item 1</a>
+											</li>
+											<li>
+												<a class="dropdown-item" href="#">Submenu item 2</a>
+											</li>
+											<li>
+												<a class="dropdown-item" href="#">Submenu item 3 &raquo;
+												</a>
+												<ul class="dropdown-menu dropdown-submenu">
+													<li>
+														<a class="dropdown-item" href="#">Multi level 1</a>
+													</li>
+													<li>
+														<a class="dropdown-item" href="#">Multi level 2</a>
+													</li>
+												</ul>
+											</li>
+											<li>
+												<a class="dropdown-item" href="#">Submenu item 4</a>
+											</li>
+											<li>
+												<a class="dropdown-item" href="#">Submenu item 5</a>
+											</li>
+										</ul> -->
 									</li>
 								</ul>
 							</div>
+							</li>
 
-							<div class="col-lg-5">
-								<ul class="nav navbar-nav navbar-right right_nav pull-right">
+							<li class="nav-item">
+								<a class="nav-link" href="/index.html#about">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/index.html#contact">Contact</a>
+							</li>
+							</ul>
+						</div>
 
-									<hr>
+						<div class="col-lg-5">
+							<ul class="nav navbar-nav navbar-right right_nav pull-right">
 
-									<li class="nav-item">
-										<a href="login.html" class="icons">
-											<i class="fa fa-user" aria-hidden="true"></i>
-										</a>
-									</li>
+								<hr>
 
-									<hr>
+								<li class="nav-item">
+									<a href="login.html" class="icons">
+										<i class="fa fa-user" aria-hidden="true"></i>
+									</a>
+								</li>
 
-									<li class="nav-item">
-										<a href="wishlist.html" class="icons">
-											<i class="fa fa-heart-o" aria-hidden="true"></i>
-										</a>
-									</li>
+								<hr>
 
-									<hr>
+								<li class="nav-item">
+									<a href="wishlist.html" class="icons">
+										<i class="fa fa-heart-o" aria-hidden="true"></i>
+									</a>
+								</li>
 
-									<li class="nav-item">
-										<a href="cart.html" class="icons">
-											<i class="lnr lnr lnr-cart"></i>
-										</a>
-									</li>
+								<hr>
 
-									<hr>
-								</ul>
-							</div>
+								<li class="nav-item">
+									<a href="cart.html" class="icons">
+										<i class="lnr lnr lnr-cart"></i>
+									</a>
+								</li>
+
+								<hr>
+							</ul>
 						</div>
 					</div>
 				</div>
-			</nav>
+		</div>
+		</nav>
 		</div>
 	</header>
 	<!--================Header Menu Area =================-->
@@ -152,17 +270,19 @@
 
 							</td>
 							<td>
-								<style> 
-									.add-to-cart-button{
+								<style>
+									.add-to-cart-button {
 										color: white !important;
 									}
-									.add-to-cart-button:hover{
+
+									.add-to-cart-button:hover {
 										color: blue !important;
 									}
 								</style>
 								<div class="checkout_btn_inner">
 									<a class="gray_btn" href="shop.html">Continue Shopping</a>
-									<a class="main_btn add-to-cart-button" onclick="continueCheckout()">Proceed to checkout</a>
+									<a class="main_btn add-to-cart-button" onclick="continueCheckout()">Proceed to
+										checkout</a>
 								</div>
 							</td>
 						</tr>
@@ -174,7 +294,7 @@
 	<!--================End Cart Area =================-->
 
 	<!--================ Subscription Area ================-->
-	<section class="subscription-area section_gap">
+	<section class="subscription-area section_gap" id="contact">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-8">
@@ -187,15 +307,13 @@
 			<div class="row justify-content-center">
 				<div class="col-lg-6">
 					<div id="mc_embed_signup">
-						<form target="_blank" novalidate
-							action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&id=92a4423d01"
-							method="get" class="subscription relative">
-							<input type="email" name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''"
-								onblur="this.placeholder = 'Email address'" required="">
+						<form class="subscription relative">
+							<input type="email" id="newsletterEmail" placeholder="Email address"
+								onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required>
 							<!-- <div style="position: absolute; left: -5000px;">
 									<input type="text" name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="">
 								</div> -->
-							<button type="submit" class="newsl-btn" onclick="alert('Subscribed')" >Get Started</button>
+							<button type="submit" class="newsl-btn" onclick="emailSubmit()">Get Started</button>
 						</form>
 					</div>
 				</div>

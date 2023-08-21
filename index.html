@@ -8,6 +8,8 @@
 	<link rel="icon" href="img/favicon.png" type="image/png">
 	<title>Fashiop</title>
 	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -20,6 +22,12 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
 </head>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+</script>
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <body onload="init()">
@@ -51,43 +59,154 @@
 									<li class="nav-item">
 										<a class="nav-link" href="shop.html">Shop</a>
 									</li>
+									<li class="nav-item">
+										<div class="dropdown">
+											<button class="nav-link" type="button" id="dropdownMenuButton"
+												data-mdb-toggle="dropdown" aria-expanded="false">
+												Categories
+											</button>
+											<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+												<li>
+													<a class="dropdown-item " href="shop.html?gender=1">
+														Men's &raquo;
+													</a>
+													<ul class="dropdown-menu dropdown-submenu">
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=1&category=1">Jordan</a>
+														</li>
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=1&category=2">Dunk Low</a>
+														</li>
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=1&category=3">Football</a>
+														</li>
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=1&category=5">Air Max</a>
+														</li>
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=1&category=6">Running</a>
+														</li>
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=1&category=7">Gym Training</a>
+														</li>
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=1&category=8">Air Force</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a class="dropdown-item" href="shop.html?gender=2">
+														Women's &raquo;
+													</a>
+													<ul class="dropdown-menu dropdown-submenu">
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=2&category=1">Jordan</a>
+														</li>
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=2&category=6">Running</a>
+														</li>
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=2&category=8">Air Force</a>
+														</li>
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=2&category=9">Sandals</a>
+														</li>
+														<li>
+															<a class="dropdown-item"
+																href="shop.html?gender=2&category=10">Slippers</a>
+														</li>
+													</ul>
+												</li>
+									</li>
+									<li>
+										<a class="dropdown-item" href="shop.html?gender=3&category=4">
+											Kids &raquo;
+										</a>
+										<!-- <ul class="dropdown-menu dropdown-submenu">
+											<li>
+												<a class="dropdown-item" href="#">Submenu item 1</a>
+											</li>
+											<li>
+												<a class="dropdown-item" href="#">Submenu item 2</a>
+											</li>
+											<li>
+												<a class="dropdown-item" href="#">Submenu item 3 &raquo;
+												</a>
+												<ul class="dropdown-menu dropdown-submenu">
+													<li>
+														<a class="dropdown-item" href="#">Multi level 1</a>
+													</li>
+													<li>
+														<a class="dropdown-item" href="#">Multi level 2</a>
+													</li>
+												</ul>
+											</li>
+											<li>
+												<a class="dropdown-item" href="#">Submenu item 4</a>
+											</li>
+											<li>
+												<a class="dropdown-item" href="#">Submenu item 5</a>
+											</li>
+										</ul> -->
+									</li>
 								</ul>
 							</div>
+							</li>
 
-							<div class="col-lg-5">
-								<ul class="nav navbar-nav navbar-right right_nav pull-right">
+							<li class="nav-item">
+								<a class="nav-link" href="/index.html#about">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/index.html#contact">Contact</a>
+							</li>
+							</ul>
+						</div>
 
-									<hr>
+						<div class="col-lg-5">
+							<ul class="nav navbar-nav navbar-right right_nav pull-right">
 
-									<li class="nav-item">
-										<a href="login.html" class="icons">
-											<i class="fa fa-user" aria-hidden="true"></i>
-										</a>
-									</li>
+								<hr>
 
-									<hr>
+								<li class="nav-item">
+									<a href="login.html" class="icons">
+										<i class="fa fa-user" aria-hidden="true"></i>
+									</a>
+								</li>
 
-									<li class="nav-item">
-										<a href="wishlist.html" class="icons">
-											<i class="fa fa-heart-o" aria-hidden="true"></i>
-										</a>
-									</li>
+								<hr>
 
-									<hr>
+								<li class="nav-item">
+									<a href="wishlist.html" class="icons">
+										<i class="fa fa-heart-o" aria-hidden="true"></i>
+									</a>
+								</li>
 
-									<li class="nav-item">
-										<a href="cart.html" class="icons">
-											<i class="lnr lnr lnr-cart"></i>
-										</a>
-									</li>
+								<hr>
 
-									<hr>
-								</ul>
-							</div>
+								<li class="nav-item">
+									<a href="cart.html" class="icons">
+										<i class="lnr lnr lnr-cart"></i>
+									</a>
+								</li>
+
+								<hr>
+							</ul>
 						</div>
 					</div>
 				</div>
-			</nav>
+		</div>
+		</nav>
 		</div>
 	</header>
 	<!--================Header Menu Area =================-->
@@ -101,7 +220,7 @@
 					<div class="offset-lg-2 col-lg-8">
 						<h3>Fashion for
 							<br> Everyone!</h3>
-						<p>Fashion For Everyone is a celebration of diversity, inclusivity, and self-expression. It embraces individuality, empowering people to express their unique style and break free from societal norms.</p>
+						<!-- <p>Fashion For Everyone is a celebration of diversity, inclusivity, and self-expression. It embraces individuality, empowering people to express their unique style and break free from societal norms.</p> -->
 						<a class="white_bg_btn" href="shop.html">View Collection</a>
 					</div>
 				</div>
@@ -175,10 +294,71 @@
 					</div>
 				</div>
 				<div class="row" id="featureProduct">
+
 				</div>
 			</div>
 	</section>
 	<!--================End Feature Product Area =================-->
+
+
+	<!--================About Area =================-->
+	<section class="feature_product_area about-area about-text-div">
+		<div class="overlay" id="about"></div>
+		<div class="main_box">
+			<div class="row mx-0">
+				<div class="main_title about-text">
+					<h2 style="color: white;">About Us</h2>
+					<p style="color: white;">
+						Welcome to Fashiop, your ultimate destination for the latest and most captivating fashion
+						footwear. At Fashiop, we're more than just a shoe retailer – we're a hub of creativity,
+						self-expression, and trendsetting designs. Our passion lies in providing you with a curated
+						selection of shoes that not only elevate your style but also tell your unique story. From
+						elegant heels that exude sophistication to casual kicks that embrace comfort, our collection
+						caters to diverse tastes and preferences. Our team of fashion enthusiasts scours the globe to
+						bring you the hottest runway-inspired looks and classic essentials, ensuring that you're always
+						steps ahead in the fashion game. With a commitment to quality craftsmanship and attention to
+						detail, every pair of shoes we offer is a masterpiece of artistry and comfort. Whether you're
+						stepping into a formal affair or embarking on a leisurely stroll, Fashiop has the perfect pair
+						for every occasion. Join us in celebrating the boundless world of footwear fashion and let your
+						shoes make a statement that resonates. Discover your style, one step at a time, with Fashiop.
+					</p>
+				</div>
+				<div class="row" id="">
+
+				</div>
+			</div>
+	</section>
+	<!--================End About Area =================-->
+
+	<!--================ Subscription Area ================-->
+	<section class="subscription-area section_gap" id="contact">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
+					<div class="section-title text-center">
+						<h2>Subscribe for Our Newsletter</h2>
+						<span>We won’t send any kind of spam</span>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-6">
+					<div id="mc_embed_signup">
+						<form class="subscription relative">
+							<input type="email" id="newsletterEmail" placeholder="Email address" onfocus="this.placeholder = ''"
+								onblur="this.placeholder = 'Email address'" required>
+							<!-- <div style="position: absolute; left: -5000px;">
+									<input type="text" name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="">
+								</div> -->
+							<button type="submit" class="newsl-btn" onclick="emailSubmit()">Get Started</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ End Subscription Area ================-->
+
 
 	<!--================ start footer Area  =================-->
 	<footer class="footer-area section_gap">
@@ -199,6 +379,7 @@
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/navbarToggle.js"></script>
 	<script src="js/items.js"></script>
 	<script src="js/cart.js"></script>
 	<script src="js/home.js"></script>

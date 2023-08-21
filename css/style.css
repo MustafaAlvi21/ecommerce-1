@@ -563,11 +563,11 @@ a:focus {
 /* Home Banner Area css
 ============================================================================================ */
 .home_banner_area {
-  background: url("/images/BANNER/Home-Banner.jpg") no-repeat center;
-  background-size: 1800px;
+  background: url("/images/BANNER/Home-Banner1.jpg") no-repeat center;
+  background-size: cover;
   position: relative;
   z-index: 1;
-  min-height: 900px;
+  min-height: 100vh;
 }
 
 .home_banner_area .overlay {
@@ -5869,7 +5869,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 }
 
 .footer-bottom {
-  padding-top: 70px;
+  height: 100%;
 }
 
 .footer-bottom .footer-text {
@@ -5922,7 +5922,9 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 }
 
 .footer-area {
-  padding: 0px 0px 40px 0px;
+  /* padding: 0px 0px 40px 0px; */
+  padding: 20px 0px !important;
+  background-color: #e0e0e0;
 }
 
 .footer-area .footer-bottom {
@@ -5936,6 +5938,92 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 
 .f_p_item .f_p_img .p_icon .active-wish:hover {
   color: red;
+}
+
+.dropdown-menu li {
+  position: relative;
+}
+
+.dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+}
+
+.dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+}
+
+.dropdown-menu>li:hover>.dropdown-submenu {
+  display: block;
+}
+
+.active-clr::before {
+  background-color: #1641ff;
+}
+
+.active-cat {
+  color: #1641ff !important;
+}
+
+.my-h5 {
+  padding: 5px 0px;
+  color: #000;
+}
+
+.about-area {
+  background-image: url('/images/BANNER/about-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  position: relative;
+  padding: 60px 0px;
+}
+
+.about-area .overlay {
+  background: rgba(0, 0, 0, 0.53);
+  /* background-color: black; */
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  z-index: 1;
+}
+
+.about-text-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text {
+  margin: 0px !important;
+  width: none !important;
+  max-width: none !important;
+  text-align: left;
+  padding: 0px 200px;
+}
+
+.qty {
+  text-align: center;
+  padding: 0px !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.qtyChangeBtns{
+  position: static !important;
+  color: #1641ff !important;
+  padding: 0px 5px;
+  width: 20px;
+  margin: 10px;
+  border: 1px solid !important;
 }
 
 /*---------------------------------------------------- */
