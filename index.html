@@ -21,16 +21,19 @@
 	<!-- main css -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
+	<!-- Fontawesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
 	integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
-</script>
+	</script>
 <!-- MDB -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <body onload="init()">
+
 
 	<!--================Header Menu Area =================-->
 	<header class="header_area">
@@ -52,7 +55,7 @@
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<div class="row w-100">
 							<div class="col-lg-7 pr-0">
-								<ul class="nav navbar-nav center_nav justify-content-end">
+								<ul class="nav navbar-nav center_nav justify-content-center">
 									<li class="nav-item active">
 										<a class="nav-link" href="index.html">Home</a>
 									</li>
@@ -93,7 +96,8 @@
 														</li>
 														<li>
 															<a class="dropdown-item"
-																href="shop.html?gender=1&category=7">Gym Training</a>
+																href="shop.html?gender=1&category=7">Gym
+																Training</a>
 														</li>
 														<li>
 															<a class="dropdown-item"
@@ -213,13 +217,15 @@
 
 	<!--================Home Banner Area =================-->
 	<section class="home_banner_area">
-		<div class="overlay"></div>
+		<!-- <div class="overlay"></div> -->
 		<div class="banner_inner d-flex align-items-center">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="banner_content row">
-					<div class="offset-lg-2 col-lg-8">
+					<div class="col-lg-8">
+						<p>Online Exclusive</p>
 						<h3>Fashion for
-							<br> Everyone!</h3>
+							<br> Everyone!
+						</h3>
 						<!-- <p>Fashion For Everyone is a celebration of diversity, inclusivity, and self-expression. It embraces individuality, empowering people to express their unique style and break free from societal norms.</p> -->
 						<a class="white_bg_btn" href="shop.html">View Collection</a>
 					</div>
@@ -228,36 +234,6 @@
 		</div>
 	</section>
 	<!--================End Home Banner Area =================-->
-
-	<!--================Hot Deals Area =================-->
-	<section class="hot_deals_area section_gap">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="hot_deal_box">
-						<img class="img-fluid" src="/images/BANNER/Home-Section-Banner-1.jpg" alt="">
-						<div class="content">
-							<h2>Hot Deals of this Month</h2>
-							<a href="shop.html" style="color:white;">shop now</a>
-						</div>
-						<a class="hot_deal_link" href="shop.html"></a>
-					</div>
-				</div>
-
-				<div class="col-lg-6">
-					<div class="hot_deal_box">
-						<img class="img-fluid" src="/images/BANNER/Home-Section-Banner-2.jpg" alt="">
-						<div class="content">
-							<h2>Hot Deals of this Month</h2>
-							<a href="shop.html" style="color:white;">shop now</a>
-						</div>
-						<a class="hot_deal_link" href="shop.html"></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================End Hot Deals Area =================-->
 
 	<!--================Clients Logo Area =================-->
 	<section class="clients_logo_area">
@@ -283,6 +259,159 @@
 	</section>
 	<!--================End Clients Logo Area =================-->
 
+	<!--================Categories Area =================-->
+	<section class="categories_area">
+		<div class="container-fluid">
+			<div class="categories_slider owl-carousel">
+				<div class="item">
+					<img src="https://vt-shopiofashion.myshopify.com/cdn/shop/files/h15_cat-2_540x.jpg?v=1647526526"
+						alt="image" class="img-fluid">
+					<div class="category_info">
+						<h3>Backpacks</h3>
+						<p>16 products</p>
+						<p class="category_link">
+							<a href="#">Shop now <i class="fa-solid fa-arrow-right ml-1"></i></a>
+						</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="https://vt-shopiofashion.myshopify.com/cdn/shop/files/h15_cat-6_540x.jpg?v=1647526520"
+						alt="image" class="img-fluid">
+					<div class="category_info">
+						<h3>Clutches</h3>
+						<p>16 products</p>
+						<p class="category_link">
+							<a href="#">Shop now <i class="fa-solid fa-arrow-right ml-1"></i></a>
+						</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="https://vt-shopiofashion.myshopify.com/cdn/shop/files/h15_cat-4_540x.jpg?v=1647526519"
+						alt="image" class="img-fluid">
+					<div class="category_info">
+						<h3>Handbags</h3>
+						<p>16 products</p>
+						<p class="category_link">
+							<a href="#">Shop now <i class="fa-solid fa-arrow-right ml-1"></i></a>
+						</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="https://vt-shopiofashion.myshopify.com/cdn/shop/files/h15_cat-5_540x.jpg?v=1647526519"
+						alt="image" class="img-fluid">
+					<div class="category_info">
+						<h3>Wallets</h3>
+						<p>16 products</p>
+						<p class="category_link">
+							<a href="#">Shop now <i class="fa-solid fa-arrow-right ml-1"></i></a>
+						</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="https://vt-shopiofashion.myshopify.com/cdn/shop/files/h15_cat-2_540x.jpg?v=1647526526"
+						alt="image" class="img-fluid">
+					<div class="category_info">
+						<h3>Backpacks</h3>
+						<p>16 products</p>
+						<p class="category_link">
+							<a href="#">Shop now <i class="fa-solid fa-arrow-right ml-1"></i></a>
+						</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="https://vt-shopiofashion.myshopify.com/cdn/shop/files/h15_cat-6_540x.jpg?v=1647526520"
+						alt="image" class="img-fluid">
+					<div class="category_info">
+						<h3>Clutches</h3>
+						<p>16 products</p>
+						<p class="category_link">
+							<a href="#">Shop now <i class="fa-solid fa-arrow-right ml-1"></i></a>
+						</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="https://vt-shopiofashion.myshopify.com/cdn/shop/files/h15_cat-4_540x.jpg?v=1647526519"
+						alt="image" class="img-fluid">
+					<div class="category_info">
+						<h3>Handbags</h3>
+						<p>16 products</p>
+						<p class="category_link">
+							<a href="#">Shop now <i class="fa-solid fa-arrow-right ml-1"></i></a>
+						</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="https://vt-shopiofashion.myshopify.com/cdn/shop/files/h15_cat-5_540x.jpg?v=1647526519"
+						alt="image" class="img-fluid">
+					<div class="category_info">
+						<h3>Wallets</h3>
+						<p>16 products</p>
+						<p class="category_link">
+							<a href="#">Shop now <i class="fa-solid fa-arrow-right ml-1"></i></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Categories Area=================-->
+
+	<!--================Hot Deals Area =================-->
+	<section class="hot_deals_area section_gap">
+		<div class="container-fluid">
+			<div class="row d-flex justify-content-center">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+					<div class="hot_deal_box">
+						<img class="img-fluid"
+							src="https://vt-shopiofashion.myshopify.com/cdn/shop/files/Mask_Group_2.png?v=1648786297"
+							alt="">
+						<!-- <img class="img-fluid" src="/images/BANNER/Home-Section-Banner-1.jpg" alt=""> -->
+						<div class="content">
+							<p>Find Your</p>
+							<h2>Women's <br> Sports Shoes</h2>
+							<h4 class="price">$199.95</h4>
+							<a href="shop.html" class="white_bg_btn">Shop Now <i
+									class="fa-solid fa-arrow-right ml-1"></i></a>
+						</div>
+						<a class="hot_deal_link" href="shop.html"></a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+					<div class="hot_deal_box">
+						<img class="img-fluid"
+							src="https://vt-shopiofashion.myshopify.com/cdn/shop/files/Mask_Group_3.png?v=1648786296"
+							alt="">
+						<!-- <img class="img-fluid" src="/images/BANNER/Home-Section-Banner-2.jpg" alt=""> -->
+						<div class="content">
+							<p>Special Offer</p>
+							<h2>Men's Sports <br> Shoes</h2>
+							<h4 class="price">$199.95</h4>
+							<a href="shop.html" class="white_bg_btn">Shop Now <i
+									class="fa-solid fa-arrow-right ml-1"></i></a>
+						</div>
+						<a class="hot_deal_link" href="shop.html"></a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+					<div class="hot_deal_box">
+						<img class="img-fluid"
+							src="https://vt-shopiofashion.myshopify.com/cdn/shop/files/Mask_Group_4.png?v=1648786296"
+							alt="">
+						<div class="content">
+							<p>Sale up to 30% off</p>
+							<h2>Run Through <br> Winter</h2>
+							<h4 class="price">$199.95</h4>
+							<a href="shop.html" class="white_bg_btn">Shop Now <i
+									class="fa-solid fa-arrow-right ml-1"></i></a>
+						</div>
+						<a class="hot_deal_link" href="shop.html"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Hot Deals Area =================-->
+
 	<!--================Feature Product Area =================-->
 	<section class="feature_product_area section_gap">
 		<div class="main_box">
@@ -292,46 +421,257 @@
 						<h2>Featured Products</h2>
 						<p>Who are in extremely love with eco friendly system.</p>
 					</div>
-				</div>
-				<div class="row" id="featureProduct">
+					<div class="product_tab" id="Producttab-16487926295d8867b0" data-section-id="16487926295d8867b0"
+						data-section-type="producttab" data-rows="1" data-slidestoshow="4">
+
+						<ul class="nav nav-tabs nav-tabs-1 mb-4" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link nav-link-0 active" data-toggle="tab" href="#prdtab-0" role="tab">
+									WOMEN'S shop
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link nav-link-1 " data-toggle="tab" href="#prdtab-1" role="tab">
+									MEN'S shop
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link nav-link-2 " data-toggle="tab" href="#prdtab-2" role="tab">
+									Kid's shop
+								</a>
+							</li>
+						</ul>
+
+						<!-- <ul class="nav nav-tabs nav-tabs-1 mb-4" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link nav-link-16487926295d8867b0-0" data-toggle="tab"
+									href="#prdtab-16487926295d8867b0-0" role="tab" aria-selected="false">
+									WOMEN'S shop
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link nav-link-16487926295d8867b0-1  active" data-toggle="tab"
+									href="#prdtab-16487926295d8867b0-1" role="tab" aria-selected="true">
+									MEN'S shop
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link nav-link-16487926295d8867b0-2 " data-toggle="tab"
+									href="#prdtab-16487926295d8867b0-2" role="tab">
+									Kid's shop
+								</a>
+							</li>
+						</ul> -->
+					</div>
 
 				</div>
+				<div class="row" id="featureProduct" role="tabpanel">
+
+				</div>
+				<!-- <div class="row" id="prdtab-16487926295d8867b0-1" role="tabpanel">
+
+				</div>
+				<div class="row" id="prdtab-16487926295d8867b0-2" role="tabpanel">
+
+				</div> -->
+
 			</div>
 	</section>
 	<!--================End Feature Product Area =================-->
 
 
-	<!--================About Area =================-->
-	<section class="feature_product_area about-area about-text-div">
-		<div class="overlay" id="about"></div>
-		<div class="main_box">
-			<div class="row mx-0">
-				<div class="main_title about-text">
-					<h2 style="color: white;">About Us</h2>
-					<p style="color: white;">
-						Welcome to Fashiop, your ultimate destination for the latest and most captivating fashion
-						footwear. At Fashiop, we're more than just a shoe retailer – we're a hub of creativity,
-						self-expression, and trendsetting designs. Our passion lies in providing you with a curated
-						selection of shoes that not only elevate your style but also tell your unique story. From
-						elegant heels that exude sophistication to casual kicks that embrace comfort, our collection
-						caters to diverse tastes and preferences. Our team of fashion enthusiasts scours the globe to
-						bring you the hottest runway-inspired looks and classic essentials, ensuring that you're always
-						steps ahead in the fashion game. With a commitment to quality craftsmanship and attention to
-						detail, every pair of shoes we offer is a masterpiece of artistry and comfort. Whether you're
-						stepping into a formal affair or embarking on a leisurely stroll, Fashiop has the perfect pair
-						for every occasion. Join us in celebrating the boundless world of footwear fashion and let your
-						shoes make a statement that resonates. Discover your style, one step at a time, with Fashiop.
-					</p>
+	<!--================Single Product Area =================-->
+	<section class="home_single_product_area">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 s_product_bg">
+					<div class="home_single_product">
+						<div class="h_product_info">
+							<p>SPRING COLLECION 2021</p>
+							<h4><span>Shop The <br> Collections</span></h4>
+						</div>
+						<div class="f_p_item">
+							<div class="f_p_img">
+								<a href="/single-product.html?name=${items[i].name}">
+									<img class="img-fluid"
+										src="https://vt-shopiofashion.myshopify.com/cdn/shop/products/customizable-mug_1_22a00756-b2c0-46af-ae60-add2997c701a_360x.jpg?v=1650786190"
+										alt="image">
+								</a>
+								<div class="p_icon">
+									<a onclick="checkWishlist(`${items[i].id}`)" id="addToWish${items[i].id}">
+										<i class="lnr lnr-heart"></i>
+									</a>
+									<a onclick="addToCartIcon(`${items[i].id}`)">
+										<i class="lnr lnr-cart"></i>
+									</a>
+								</div>
+							</div>
+							<a href="/single-product.html?name=${items[i].name}">
+								<h4>Air Jordan 1 Mid SE</h4>
+							</a>
+							<div class="d-flex justify-content-center align-items-center mb-1">
+								<div class="small-ratings me-2">
+									<i class="fa fa-star rating-color"></i>
+									<i class="fa fa-star rating-color"></i>
+									<i class="fa fa-star rating-color"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</div>
+								<h4 class="review">1 review</h4>
+							</div>
+							<h5>$124.95</h5>
+						</div>
+					</div>
 				</div>
-				<div class="row" id="">
+				<div class="col-lg-6 col-md-6">
+					<img src="https://vt-shopiofashion.myshopify.com/cdn/shop/files/H27_banner04_1920x.png?v=1648872273"
+						alt="image" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Single Product Area =================-->
 
+
+	<!--================Post Area =================-->
+	<section class="post_area section_gap section_gap">
+		<div class="container-fluid">
+			<div class="main_title">
+				<h2>Our Latest Posts</h2>
+			</div>
+			<div class="row d-flex justify-content-center">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-12">
+					<div class="card post_card">
+						<div class="post_image mb-3">
+							<img src="https://vt-shopiofashion.myshopify.com/cdn/shop/articles/unsplash_VtQMBG_Ljc0_540x.png?v=1648880108"
+								alt="img" class="img-fluid">
+							<div class="post_date">
+								<h4 class="date">02</h4>
+								<p class="month">Apr</p>
+							</div>
+						</div>
+						<div class="content text-center">
+							<ul class="d-flex justify-content-center">
+								<li>Lifestyle</li>
+								<li>VU Thin</li>
+							</ul>
+							<h4 class="post_title">Honor Earth Day Fourth Annual Ladybug Love Campaign</h4>
+							<p class="post_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+								eiusmod tempor incididunt ut labore...</p>
+							<button class="btn read_more_btn">Read More <i
+									class="fa-solid fa-arrow-right ml-1"></i></button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-12">
+					<div class="card post_card">
+						<div class="post_image mb-3">
+							<img src="https://vt-shopiofashion.myshopify.com/cdn/shop/articles/unsplash_gj1dnc7yRG0_540x.png?v=1648880083"
+								alt="img" class="img-fluid">
+							<div class="post_date">
+								<h4 class="date">02</h4>
+								<p class="month">Apr</p>
+							</div>
+						</div>
+						<div class="content text-center">
+							<ul class="d-flex justify-content-center">
+								<li>Lifestyle</li>
+								<li>VU Thin</li>
+							</ul>
+							<h4 class="post_title">Honor Earth Day Fourth Annual Ladybug Love Campaign</h4>
+							<p class="post_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+								eiusmod tempor incididunt ut labore...</p>
+							<button class="btn read_more_btn">Read More <i
+									class="fa-solid fa-arrow-right ml-1"></i></button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-12">
+					<div class="card post_card">
+						<div class="post_image mb-3">
+							<img src="https://vt-shopiofashion.myshopify.com/cdn/shop/articles/unsplash_VtQMBG_Ljc0_540x.png?v=1648880108"
+								alt="img" class="img-fluid">
+							<div class="post_date">
+								<h4 class="date">02</h4>
+								<p class="month">Apr</p>
+							</div>
+						</div>
+						<div class="content text-center">
+							<ul class="d-flex justify-content-center">
+								<li>Lifestyle</li>
+								<li>VU Thin</li>
+							</ul>
+							<h4 class="post_title">Honor Earth Day Fourth Annual Ladybug Love Campaign</h4>
+							<p class="post_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+								eiusmod tempor incididunt ut labore...</p>
+							<button class="btn read_more_btn">Read More <i
+									class="fa-solid fa-arrow-right ml-1"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--================End Post Area =================-->
+
+	<!--================About Area =================-->
+	<section class="about-area section_gap">
+		<!-- <div class="overlay" id="about"></div> -->
+		<div class="container-fluid">
+			<div class="main_box">
+				<div class="row d-flex justify-content-center align-items-center mx-0">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+						<!-- <div class="w-100"> -->
+						<img src="https://vt-shopiofashion.myshopify.com/cdn/shop/files/02_09_1_720x.png?v=1648876973"
+							alt="image" class="img-fluid w-100">
+						<!-- </div> -->
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+						<div class="main_title about-text">
+							<h2>About Us</h2>
+							<p>
+								Welcome to Fashiop, your ultimate destination for the latest and most captivating
+								fashion
+								footwear. At Fashiop, we're more than just a shoe retailer – we're a hub of creativity,
+								self-expression, and trendsetting designs. Our passion lies in providing you with a
+								curated
+								selection of shoes that not only elevate your style but also tell your unique story.
+								From
+								elegant heels that exude sophistication to casual kicks that embrace comfort, our
+								collection
+								caters to diverse tastes and preferences. Our team of fashion enthusiasts scours the
+								globe
+								to
+								bring you the hottest runway-inspired looks and classic essentials, ensuring that you're
+								always
+								steps ahead in the fashion game. With a commitment to quality craftsmanship and
+								attention to
+								detail, every pair of shoes we offer is a masterpiece of artistry and comfort. Whether
+								you're
+								stepping into a formal affair or embarking on a leisurely stroll, Fashiop has the
+								perfect
+								pair
+								for every occasion. Join us in celebrating the boundless world of footwear fashion and
+								let
+								your
+								shoes make a statement that resonates. Discover your style, one step at a time, with
+								Fashiop.
+							</p>
+							<a href="#" class="shop_btn">Go To Shop <i class="fa-solid fa-arrow-right ml-1"></i></a>
+							<!-- <button class="btn"></button> -->
+						</div>
+					</div>
+					<div class="row" id="">
+
+					</div>
 				</div>
 			</div>
 	</section>
 	<!--================End About Area =================-->
 
 	<!--================ Subscription Area ================-->
-	<section class="subscription-area section_gap" id="contact">
+	<!-- <section class="subscription-area section_gap" id="contact">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-8">
@@ -345,28 +685,92 @@
 				<div class="col-lg-6">
 					<div id="mc_embed_signup">
 						<form class="subscription relative">
-							<input type="email" id="newsletterEmail" placeholder="Email address" onfocus="this.placeholder = ''"
-								onblur="this.placeholder = 'Email address'" required>
-							<!-- <div style="position: absolute; left: -5000px;">
-									<input type="text" name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="">
-								</div> -->
+							<input type="email" id="newsletterEmail" placeholder="Email address"
+								onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required>
 							<button type="submit" class="newsl-btn" onclick="emailSubmit()">Get Started</button>
 						</form>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!--================ End Subscription Area ================-->
 
 
 	<!--================ start footer Area  =================-->
 	<footer class="footer-area section_gap">
-		<div class="container">
-			<div class="row footer-bottom d-flex justify-content-between align-items-center">
+		<div class="container-fluid">
+			<div class="row d-flex justify-content-between">
+
+				<div class="col-lg-3 col-md-4 col-12 footer_coloumn">
+					<h3 class="footer_section_title">Uselink</h3>
+					<div class="d-flex links_coloumn">
+						<ul class="footer_list me-5">
+							<li class="footer_list_item"><a href="#">Legal & Privacy</a></li>
+							<li class="footer_list_item"><a href="#">Contact</a></li>
+							<li class="footer_list_item"><a href="#">Gift Card</a></li>
+							<li class="footer_list_item"><a href="#">Customer Service</a></li>
+							<li class="footer_list_item"><a href="#">My Account</a></li>
+							<li class="footer_list_item"><a href="#">Find a Store</a></li>
+						</ul>
+						<ul class="footer_list">
+							<li class="footer_list_item"><a href="#">My Profile</a></li>
+							<li class="footer_list_item"><a href="#">My Order</a></li>
+							<li class="footer_list_item"><a href="#">History</a></li>
+							<li class="footer_list_item"><a href="#">My Wish</a></li>
+							<li class="footer_list_item"><a href="#">List Order</a></li>
+							<li class="footer_list_item"><a href="#">Tracking</a></li>
+							<li class="footer_list_item"><a href="#">Shopping Cart</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-12 footer_coloumn">
+					<div class="text-center">
+						<h3 class="subtop">Stay caffeinated</h3>
+						<h4>Get the latest information and special offers</h4>
+						<div class="input-group">
+							<input type="email" value="" placeholder="Your email" name="contact[email]"
+								id="NewsletterEmail-ca62ca6c-19f9-417f-ba72-c7e039eefc3a" class="form-control">
+							<div class="input-group-append">
+								<button type="submit" class="btn btn-theme px-3" name="commit">
+									Subscribe
+									<div class="icon"> <i class="fa-solid fa-arrow-right ml-1"></i></div>
+								</button>
+							</div>
+						</div>
+
+						<div class="social_icons_area d-flex justify-content-center">
+							<div class="social_icons me-4"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
+							<div class="social_icons me-4"><a href="#"><i class="fa-brands fa-twitter"></i></a></div>
+							<div class="social_icons me-4"><a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+							</div>
+							<div class="social_icons"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-12 footer_coloumn">
+					<div class="text-right touch_coloumn">
+						<h3 class="footer_section_title">Get in touch</h3>
+						<div class="pb-3">
+							<h5 class="phone">8 (844) 880 - 33388</h5>
+							<p>customer_support@example.com</p>
+						</div>
+						<ul class="time pl-0">
+							<li>Mon - Sat: <span>7.00am - 8.00pm</span></li>
+							<li>Sun: <span>9.00am - 10.00pm</span></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row footer-bottom">
 				<p class="col-lg-12 footer-text text-center">
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					Copyright &copy;<script>
+					Copyright &copy;
+					<script>
 						document.write(new Date().getFullYear());
 					</script> All rights reserved
 				</p>
@@ -398,6 +802,7 @@
 	<script src="vendors/counter-up/jquery.counterup.js"></script>
 	<script src="js/mail-script.js"></script>
 	<script src="js/theme.js"></script>
+	<script src="js/slick.min.js"></script>
 </body>
 
 </html>
